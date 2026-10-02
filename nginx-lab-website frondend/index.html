@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nginx Lab | Home</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="container nav-content">
+            <a class="logo" href="index.html">Nginx<span>Lab</span></a>
+            <nav>
+                <a class="active" href="index.html">Home</a>
+                <a href="about.html">About</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <p class="eyebrow">NGINX • CLOUD • DEVOPS</p>
+                    <h1>Build. Deploy.<br><span>Scale.</span></h1>
+                    <p class="hero-description">
+                        A simple web application created for our Nginx lab.
+                        We will use it later to practice static hosting,
+                        server blocks, reverse proxy, and load balancing.
+                    </p>
+                    <div class="buttons">
+                        <a class="btn primary" href="about.html">Explore the App</a>
+                        <a class="btn secondary" href="#features">View Features</a>
+                    </div>
+                </div>
+
+                <div class="terminal-card">
+                    <div class="terminal-top">
+                        <span></span><span></span><span></span>
+                    </div>
+                    <div class="terminal-body">
+                        <p><span class="green">$</span> nginx -t</p>
+                        <p class="success">syntax is ok</p>
+                        <p class="success">test is successful</p>
+                        <br>
+                        <p><span class="green">$</span> systemctl status nginx</p>
+                        <p class="success">● nginx.service - active (running)</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="features">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">WHAT WE WILL PRACTICE</p>
+                    <h2>One app, many Nginx concepts.</h2>
+                </div>
+
+                <div class="cards">
+                    <article class="card">
+                        <div class="icon">01</div>
+                        <h3>Static Hosting</h3>
+                        <p>Serve HTML, CSS and JavaScript files directly from the Nginx document root.</p>
+                    </article>
+
+                    <article class="card">
+                        <div class="icon">02</div>
+                        <h3>Reverse Proxy</h3>
+                        <p>Route requests from Nginx to a backend application using proxy_pass.</p>
+                    </article>
+
+                    <article class="card">
+                        <div class="icon">03</div>
+                        <h3>Load Balancing</h3>
+                        <p>Later, connect multiple backend servers and distribute requests between them.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Nginx Lab Project • Built for Cloud & DevOps practice</p>
+        </div>
+    </footer>
+</body>
+</html>

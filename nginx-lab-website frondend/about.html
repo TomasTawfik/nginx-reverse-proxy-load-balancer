@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nginx Lab | About</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="about-page">
+    <header class="navbar">
+        <div class="container nav-content">
+            <a class="logo" href="index.html">Nginx<span>Lab</span></a>
+            <nav>
+                <a href="index.html">Home</a>
+                <a class="active" href="about.html">About</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="about-hero">
+            <div class="container">
+                <p class="eyebrow">ABOUT THE PROJECT</p>
+                <h1>Learning Nginx<br>through a real application.</h1>
+                <p>
+                    This page is the second part of our small application.
+                    We are building it first as a normal website, then we will
+                    deploy it on our Rocky Linux virtual machine with Nginx.
+                </p>
+            </div>
+        </section>
+
+        <section class="architecture">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">OUR ROADMAP</p>
+                    <h2>From a simple website to a production-style setup.</h2>
+                </div>
+
+                <div class="timeline">
+                    <div class="step">
+                        <span>01</span>
+                        <div>
+                            <h3>Static Website</h3>
+                            <p>HTML and CSS served directly by Nginx.</p>
+                        </div>
+                    </div>
+
+                    <div class="step">
+                        <span>02</span>
+                        <div>
+                            <h3>Server Blocks</h3>
+                            <p>Learn how Nginx can host multiple websites.</p>
+                        </div>
+                    </div>
+
+                    <div class="step">
+                        <span>03</span>
+                        <div>
+                            <h3>Reverse Proxy</h3>
+                            <p>Send API requests from Nginx to an application server.</p>
+                        </div>
+                    </div>
+
+                    <div class="step">
+                        <span>04</span>
+                        <div>
+                            <h3>Load Balancing</h3>
+                            <p>Connect multiple backend servers and distribute traffic.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="code-preview">
+                    <p class="code-title">Target architecture</p>
+                    <pre>
+User
+  │
+  ▼
+Nginx
+  ├── /        → Static Website
+  └── /api/    → Backend
+                  │
+          ┌───────┼───────┐
+          ▼       ▼       ▼
+       Server 1 Server 2 Server 3
+                    </pre>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Nginx Lab Project • Rocky Linux + Nginx</p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,64 @@
+# =========================
+# Operating System
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# =========================
+# VMware / Virtual Machines
+# =========================
+vm/
+*.vmx
+*.vmdk
+*.nvram
+*.vmsd
+*.vmem
+*.vswp
+*.lck
+*.vmxf
+*.vmss
+*.vmtx
+*.vmpl
+*.log
+
+# VMware snapshots
+*.vmsn
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# Environment / Secrets
+# =========================
+.env
+.env.*
+*.key
+*.pem
+
+# =========================
+# Nginx generated logs
+# =========================
+access.log
+error.log
+*.log
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+#================================
+# Archives
+*.zip
+*.rar
+*.7z

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CloudOps | Dashboard</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="nav">
+        <div class="container nav-inner">
+            <a href="index.html" class="brand">Cloud<span>Ops</span></a>
+            <nav>
+                <a class="active" href="index.html">Dashboard</a>
+                <a href="#services">Services</a>
+                <a href="#status">Status</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <p class="label">SECOND WEBSITE • NGINX LAB</p>
+                <h1>Cloud infrastructure<br>made <span>simple.</span></h1>
+                <p class="intro">
+                    A completely different website running on the same Rocky Linux
+                    VM and the same Nginx server. We will use it later to practice
+                    server blocks and virtual hosts.
+                </p>
+            </div>
+        </section>
+
+        <section id="services" class="services">
+            <div class="container">
+                <div class="heading">
+                    <p class="label">SERVICES</p>
+                    <h2>Infrastructure overview</h2>
+                </div>
+
+                <div class="grid">
+                    <article class="service">
+                        <div class="number">01</div>
+                        <h3>Web Hosting</h3>
+                        <p>Static HTML and CSS files are served directly by Nginx.</p>
+                    </article>
+
+                    <article class="service">
+                        <div class="number">02</div>
+                        <h3>API Gateway</h3>
+                        <p>Nginx can forward application requests to backend services.</p>
+                    </article>
+
+                    <article class="service">
+                        <div class="number">03</div>
+                        <h3>Traffic Control</h3>
+                        <p>Rate limiting, routing and load balancing can be added later.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="status" class="status-section">
+            <div class="container">
+                <div class="status-card">
+                    <div>
+                        <p class="label">SYSTEM STATUS</p>
+                        <h2>All systems operational</h2>
+                        <p class="muted">Nginx is serving this website successfully.</p>
+                    </div>
+                    <div class="status">
+                        <span class="dot"></span>
+                        ONLINE
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">CloudOps • Nginx Practice Environment</div>
+    </footer>
+</body>
+</html>
