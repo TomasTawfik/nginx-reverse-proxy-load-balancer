@@ -37,7 +37,3 @@ The setup uses NGINX as the entry point for two static websites and two backend 
             :8080          :8081
 
 
-The README should make the **repository itself** look professional. The detailed learning can go into your interview discussion.
-
-One more thing: I'd also rename your folders from `nginx-lab-website frondend` to `frontend/site1` and `nginx-lab-second-site frondend` to `frontend/site2` before we push. That will make the repo look much cleaner.
-
