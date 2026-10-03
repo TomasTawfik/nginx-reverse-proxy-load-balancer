@@ -64,7 +64,7 @@ The project includes:
 │   ├── site1.conf
 │   └── site2.conf
 │
-├── docs/
+├── arch/
 │   └── architecture.png
 │
 ├── .gitignore
